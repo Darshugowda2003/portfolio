@@ -550,30 +550,31 @@
                                                 style="overflow-y:scroll; overflow-x:hidden; height:480px;">
                                                 <div class="col-md-6">
                                                     <div class="contact-form">
-                                                        <form action="">
+                                                        <form action="https://api.web3forms.com/submit" method="POST">
+                                                            <input type="hidden" name="access_key" value="cd9ca618-9eb7-4783-ad2d-ced9c4376354">
                                                             <div class="row">
                                                                 <div class="input-group">
-                                                                    <input type="text" placeholder="Name"
+                                                                    <input type="text" name="name" placeholder="Name"
                                                                         class="input-control" required>
                                                                 </div>
                                                                 <div class="input-group">
-                                                                    <input type="email" placeholder="Email"
+                                                                    <input type="email" name="Email" placeholder="Email"
                                                                         class="input-control" required>
                                                                 </div>
                                                                 <div class="input-group">
-                                                                    <input type="text" placeholder="Subject"
+                                                                    <input type="text" name="Subject" placeholder="Subject"
                                                                         class="input-control" required>
                                                                 </div>
                                                                 <div class="input-group">
-                                                                    <textarea placeholder="Message"
+                                                                    <textarea name= "Message" placeholder="Message"
                                                                         class="input-control"></textarea>
                                                                 </div>
 
-                                                                <!--<div class="submit-btn mb-4">
+                                                                <div class="submit-btn mb-4">
                                                                     <button type="submit"
                                                                         class="btn btn-glow ripple">Send
                                                                         Message</button>
-                                                                </div>-->
+                                                                </div>
 
                                                             </div>
                                                         </form>
